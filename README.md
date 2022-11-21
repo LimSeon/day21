@@ -192,13 +192,13 @@ AJAX 수업내용
     
 3. 서버로 데이터 전송 후, 조회된 객체를 응답데이터로 받기
 
-      GSON : Google JSON 라이브러리
-      
-      Gson gson = new Gson();
-      
-      [ 표현법 ]
-      gson.toJoin(응답할객체, 응답할스트림)
-      gson.toJson(m, response.getWriter());
-      => response.getWriter()라는 통로로 m이라는 객체를 응답하겠다.
-      => 명시적으로 키 값을 제시하지 않으면, 키 값은 자동으로 필드명이 된다.
+	      GSON : Google JSON 라이브러리
+
+	      Gson gson = new Gson();
+
+	      [ 표현법 ]
+	      gson.toJoin(응답할객체, 응답할스트림)
+	      gson.toJson(m, response.getWriter());
+	      => response.getWriter()라는 통로로 m이라는 객체를 응답하겠다.
+	      => 명시적으로 키 값을 제시하지 않으면, 키 값은 자동으로 필드명이 된다.
 
